@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    box-shadow: 0 1px 2px black;
+    top: 0px;
+    padding: 10px 20px;
+}
+.nav{
+    list-style: none;
+    display:flex ;
+    float: right;
+    gap: 120px;
+    
+}
+.nav li{
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    color: rgb(136,138,149);
+}
+.nav li:hover{
+    color: orangered;
+}
+.logo{
+    display:inline-block;
+    height: 60px;
+    width: 60px;
+}
+.logo img{
+    height: 55px;
+    width: 55px;
+}
+.other{
+    display: inline-flex;
+    font-size: 20px;
+    color:orangered;
+}
+.foodpics {
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.food{
+    display: inline-flex;
+    height:180px;
+    width: 150px;
+}
+.toprestaurants{
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.restaurant{
+    display: inline-block;
+    margin: 2px;
+    padding: 5px;
+    height:300px;
+    width: 250px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    font-size: 20px;
+}
+.restaurant h5{
+    color: rgb(76,83,89);
+}
+.restaurant p{
+    color: black
+}
+.restaurant img{
+    height:230px;
+    width: 250px;
+    border-radius: 10px;
+}
+.restaurant:hover{
+    transform: scale(1.04);
+}
+
+.cities{
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: inline-block;
+    
+}
+.city{
+    height:60px;
+    width: 250px; 
+    border: 0.5px solid grey;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 15px;
+}
+.download{
+    background-color: rgb(240, 240, 245);
+    display: flex;
+    flex-direction: row;
+    gap: 170px;
+    max-height: 136px;
+    padding: 14px;
+}
+.downloading img{
+    height: 64px;
+    width: 210px;
+    margin: 10px;
+}
+.downloadhead{
+    margin-left: 150px;
+}
+.downloading{
+    margin-right: 150px;
+}
+.last{
+    color:rgba(255,255,255,0.6);
+    height: 400px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    
+}
+.last ul{
+    list-style: none;
+}
+.lastdiv{
+    padding:40px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    gap: 140px;
+    line-height: 35px;
+}
+.first{
+    display: inline;
+}
+.first img{
+    height: 40px; 
+    width: 130px;
+}

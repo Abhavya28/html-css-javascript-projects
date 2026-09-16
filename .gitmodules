@@ -1,3 +1,27 @@
 [submodule "Amazon Clone"]
-	path = Amazon Clone
-	url = https://github.com/Abhavya28/Amazon-Clone.git
+    path = Amazon Clone
+    url = https://github.com/Abhavya28/Amazon-Clone.git
+
+[submodule "Calculator"]
+    path = Calculator
+    url = https://github.com/Abhavya28/Basic-Calculator.git
+
+[submodule "Mini Calender"]
+    path = Mini Calender
+    url = https://github.com/Abhavya28/Mini-Calander.git
+
+[submodule "QR Code Generator"]
+    path = QR Code Generator
+    url = https://github.com/Abhavya28/QR-Code-Generator.git
+
+[submodule "Text to Speech Convertor"]
+    path = Text to Speech Convertor
+    url = https://github.com/Abhavya28/Text-to-Speech-Convertor.git
+
+[submodule "To-do List"]
+    path = To-do List
+    url = https://github.com/Abhavya28/Basic-To-Do-List.git
+
+[submodule "Travel Landing Page"]
+    path = Travel Landing Page
+    url = https://github.com/Abhavya28/travel-landing-page.git

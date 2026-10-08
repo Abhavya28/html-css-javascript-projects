@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="min-h-screen bg-gray-100 flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl shadow-xl p-8 w-full max-w-md">
+
+            <h1 class="text-xl font-bold text-center mb-8">
+                Stopwatch
+            </h1>
+
+            <div class="border-2 border-gray-800 rounded-xl py-8 mb-8">
+                <div id="timer" class="text-2xl font-mono font-bold text-center tracking-wider">
+                    00:00:00
+                </div>
+            </div>
+
+            <div class="flex justify-center gap-4">
+                <button id="start" class="px-5 py-2 rounded-lg bg-black text-white">
+                    Start
+                </button>
+
+                <button id="pause" class="px-5 py-2 rounded-lg bg-gray-200 text-gray-800">
+                    Pause
+                </button>
+
+                <button id="reset" class="px-5 py-2 rounded-lg bg-red-500 text-white">
+                    Reset
+                </button>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
